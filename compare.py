@@ -1,0 +1,5 @@
+a = int(input("enter first number:"))
+b = int(input("enter second number"))
+print ("a is greator than b is" , a>b)
+print ("the average of these two number is" , (a+b)/2)
+print ("square of the no a:" , a**a)

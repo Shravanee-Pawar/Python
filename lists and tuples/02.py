@@ -1,0 +1,7 @@
+a = (1 ," false" , 3 ,4 ,3 , "rohan" , False)
+print (type(a))
+print(a)
+no = a.count(3)
+print (no)
+i = a.index(4)
+print(i)
