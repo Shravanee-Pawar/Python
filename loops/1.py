@@ -17,4 +17,6 @@ for i in f:
     print (i) 
 h =(6,231,75,122)
 for i in h:
-    print(i)      
+    print(i)
+
+             
