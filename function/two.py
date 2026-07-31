@@ -1,3 +1,3 @@
-def goodday():
-    print("good day")
-goodday()    
+def goodday(name):
+    print("good day , " + name)
+goodday("harry")   
