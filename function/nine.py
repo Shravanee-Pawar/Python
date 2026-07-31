@@ -3,4 +3,4 @@ def multiply(n):
         print(f"{n}*{i}={n*i}")
         
 multiply(5)        
-        
+         
