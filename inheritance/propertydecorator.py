@@ -1,24 +1,15 @@
 class Employee:
-    a = 1
-
-    @classmethod
-    def show(cls):
-        print(f"The class attribute of a is {cls.a}")
-
     @property
     def name(self):
-        return self.ename
+        return f"{self.fname} {self.lname}"
 
     @name.setter
     def name(self, value):
-        self.ename = value
-
+        self.fname, self.lname = value.split(" ")
 
 e = Employee()
 
-e.a = 45
+e.name = "Harry Pawar"
 
-e.name = "harry"
+print(e.fname, e.lname)
 print(e.name)
-
-e.show()
