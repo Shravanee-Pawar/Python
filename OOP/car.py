@@ -1,0 +1,14 @@
+class Car:
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+
+    def display(self):
+        print("Brand:", self.brand)
+        print("Model:", self.model)
+        print("Price:", self.price)
+
+
+c1 = Car("Toyota", "Fortuner", 4000000)
+c1.display()
